@@ -98,9 +98,8 @@ Ensure you have the following installed:
 
 ### The API is deployed at: https://hng12-stage0-ln1chyoy1-blessings-projects-b5288423.vercel.app/
 
+### https://hng.tech/hire/python-developers
 
-### Author
-```sh
-  Blessing Onyinyechukwu Ihejirika
+
 
 
