@@ -78,9 +78,15 @@ Ensure you have the following installed:
 1. **Create a new Web Service** on Render.  
 2. **Connect your GitHub repository.**  
 
-### Set the Build Command  
-```sh
-1. **pip install -r requirements.txt**
+
+## Installation
+
+1. **Install dependencies**  
+   Run the following command to install all required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
 
 2. **Set the start command**
   uvicorn main:app --host 0.0.0.0 --port $PORT
