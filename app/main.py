@@ -20,6 +20,6 @@ async def get_info():
     data = {
         "email": "onyinyechukwumblessing@gmail.com",
         "current_datetime": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z",  # Trim to milliseconds
-        "github_url": "https://github.com/BlessOnyi/hng12-stage0-api.git"
+        "github_url": "https://github.com/BlessOnyi/hng12-stage0.git"
     }
     return data
