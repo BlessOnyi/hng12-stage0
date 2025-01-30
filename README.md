@@ -80,21 +80,20 @@ Ensure you have the following installed:
 
 ### Set the Build Command  
 ```sh
-pip install -r requirements.txt
+1. **pip install -r requirements.txt**
 
-## Set the start command
+2. **Set the start command**
   uvicorn main:app --host 0.0.0.0 --port $PORT
 
-
-## Environment Variables
+3. **Environment Variables.**
   PORT: Server port (default: 8000)
 
-### Live Demo
-```sh
-  The API is deployed at: [Deployed API URL] (Replace with your actual deployment link)**
+## Live Demo
+
+### The API is deployed at: [Deployed API URL] (Replace with your actual deployment link)**
 
 
-###Author
+### Author
 ```sh
   Blessing Onyinyechukwu Ihejirika
 
