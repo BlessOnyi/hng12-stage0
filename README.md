@@ -96,7 +96,7 @@ Ensure you have the following installed:
 
 ## Live Demo
 
-### The API is deployed at: [Deployed API URL] (Replace with your actual deployment link)**
+### The API is deployed at: https://hng12-stage0-ln1chyoy1-blessings-projects-b5288423.vercel.app/
 
 
 ### Author
