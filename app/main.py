@@ -15,11 +15,11 @@ app.add_middleware(
 
 
 
-@app.get("/")
-async def get_info():
+@app.get("/api/v1/info")
+async def get_details():
     data = {
         "email": "onyinyechukwumblessing@gmail.com",
-        "current_datetime": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z",  # Trim to milliseconds
+        "current_datetime": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z", 
         "github_url": "https://github.com/BlessOnyi/hng12-stage0.git"
     }
     return data
