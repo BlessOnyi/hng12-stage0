@@ -68,7 +68,7 @@ Ensure you have the following installed:
 
 4. **Run the development server:**
 - uvicorn main:app --reload
-- The API will be available at: http://127.0.0.1:8000/api/vi/info
+- The API will be available at: http://127.0.0.1:8000/api/v1/info
 
 
 ## Deployment
