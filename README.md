@@ -25,7 +25,7 @@ FastAPI's `CORSMiddleware` is used to allow requests from all origins.
 ## API Specification
 
 ### Endpoint
-`GET /`
+`GET /api/v1/info`
 
 ### Response Format
 The API returns a JSON response with HTTP status code 200 OK:
@@ -68,7 +68,7 @@ Ensure you have the following installed:
 
 4. **Run the development server:**
 - uvicorn main:app --reload
-- The API will be available at http://127.0.0.1:8000
+- The API will be available at: http://127.0.0.1:8000/api/vi/info
 
 
 ## Deployment
