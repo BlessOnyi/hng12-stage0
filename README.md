@@ -101,7 +101,7 @@ Ensure you have the following installed:
 - `PORT`: Server port (default: 8000)
 
 ### The API is deployed at: 
-API DEPLOYED URL
+https://hng12-stage0-ten.vercel.app/api/v1/info
 
 ### Testing
 1. **Using Postman:**
@@ -112,7 +112,7 @@ API DEPLOYED URL
 - Send the request
 - Verify the JSON response matches the specified format
 
-2. ***Performance:**
+2. **Performance:**
 - Response time: < 500ms
 - Monitored using Vercel Analytics
 - Optimized for quick response through FastAPI's async capabilities
