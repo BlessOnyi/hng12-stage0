@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
+from mangum import Mangum
 
 app = FastAPI()
 
@@ -23,3 +24,5 @@ async def get_details():
         "github_url": "https://github.com/BlessOnyi/hng12-stage0.git"
     }
     return data
+
+handler = Mangum(app)
